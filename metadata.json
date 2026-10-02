@@ -1,0 +1,9 @@
+{
+  "name": "HomedesignofDjadou — Bespoke Fashion Atelier & E-Commerce",
+  "description": "Independent bespoke fashion atelier e-commerce platform with dynamic collection themes, custom product and inventory catalog, orders & payment management, and complete data ownership.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
+
