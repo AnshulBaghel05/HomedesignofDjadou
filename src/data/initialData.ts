@@ -1,10 +1,15 @@
 import { Product, Collection, ThemeConfig, Order, Customer } from '../types/store';
+import heroImg from '../assets/images/djadou_hero_collection.jpg';
+import trenchImg from '../assets/images/djadou_wool_trench.jpg';
+import blouseImg from '../assets/images/djadou_silk_blouse.jpg';
+import trousersImg from '../assets/images/djadou_pleated_trousers.jpg';
+import knitImg from '../assets/images/djadou_cashmere_knit.jpg';
 
-export const HERO_IMAGE = '/src/assets/images/djadou_hero_collection_1790941826028.jpg';
-export const TRENCH_IMAGE = '/src/assets/images/djadou_wool_trench_1790941840251.jpg';
-export const BLOUSE_IMAGE = '/src/assets/images/djadou_silk_blouse_1790941853202.jpg';
-export const TROUSERS_IMAGE = '/src/assets/images/djadou_pleated_trousers_1790941865032.jpg';
-export const KNIT_IMAGE = '/src/assets/images/djadou_cashmere_knit_1790941876300.jpg';
+export const HERO_IMAGE = heroImg;
+export const TRENCH_IMAGE = trenchImg;
+export const BLOUSE_IMAGE = blouseImg;
+export const TROUSERS_IMAGE = trousersImg;
+export const KNIT_IMAGE = knitImg;
 
 export const INITIAL_THEMES: ThemeConfig[] = [
   {

@@ -139,17 +139,17 @@ interface StoreContextType {
 const StoreContext = createContext<StoreContextType | null>(null);
 
 const STORAGE_KEYS = {
-  LANGUAGE: 'djadou_language_v2',
-  PRODUCTS: 'djadou_products_v2',
-  COLLECTIONS: 'djadou_collections_v2',
-  THEMES: 'djadou_themes_v2',
-  CURRENT_THEME_ID: 'djadou_current_theme_id_v2',
-  CART: 'djadou_cart_v2',
-  WISHLIST: 'djadou_wishlist_v2',
-  ORDERS: 'djadou_orders_v2',
-  CUSTOMERS: 'djadou_customers_v2',
-  CURRENCY: 'djadou_currency_v2',
-  SETTINGS: 'djadou_settings_v2'
+  LANGUAGE: 'djadou_language_v3',
+  PRODUCTS: 'djadou_products_v3',
+  COLLECTIONS: 'djadou_collections_v3',
+  THEMES: 'djadou_themes_v3',
+  CURRENT_THEME_ID: 'djadou_current_theme_id_v3',
+  CART: 'djadou_cart_v3',
+  WISHLIST: 'djadou_wishlist_v3',
+  ORDERS: 'djadou_orders_v3',
+  CUSTOMERS: 'djadou_customers_v3',
+  CURRENCY: 'djadou_currency_v3',
+  SETTINGS: 'djadou_settings_v3'
 };
 
 function loadStorage<T>(key: string, fallback: T): T {
